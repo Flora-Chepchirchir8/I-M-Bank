@@ -1,0 +1,67 @@
+
+p:before{
+    color: rgb(1,97,149);
+    font-weight: bold;
+    content:" ";
+    height: 1.3px;
+    width: 180px;
+    background: rgb(217,217,217);
+    position: absolute;
+    top: 40%;
+    left: 43rem
+}
+p:after{
+    content:" ";
+    height: 1.3px;
+    width: 180px;
+    background: rgb(217,217,217);
+    display: block;
+    position: absolute;
+    top: 40%;
+    right: 43rem;
+  }
+  .text{
+    font-weight: bold;
+    color: rgb(1,97,149);
+    font-size: 18px;
+   
+  }
+
+
+.btn-block {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  min-width: 0;
+}
+.input-group-addon {
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1;
+  color: #767676;
+  text-align: center;
+  background-color: #eeeeee;
+  border: 1px solid #cbd5dd;
+  border-radius: 2px;
+}
+
+form{
+  margin: 0 auto;
+  width:35% ;
+  
+
+    
+}
+
+button{
+  background-color: rgb(1,97,149);
+  height: ;
+}
