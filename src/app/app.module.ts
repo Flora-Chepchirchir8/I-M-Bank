@@ -6,14 +6,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './components/login/login.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
+import { ForgotPasswordComponent } from './components/forgotpassword'
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { SidenavComponent } from './components/sidenav/sidenav.component';
 
 
 
 
 const routes: Routes = [
   {path:'',component:LoginComponent},
+  
   
 ];
 
@@ -23,7 +24,10 @@ const routes: Routes = [
     LoginComponent,
     HomepageComponent,
     NavbarComponent,
-    SidenavComponent
+   
+   
+    
+    
   ],
   imports: [
     BrowserModule,
