@@ -6,7 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './components/login/login.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
-import { ForgotPasswordComponent } from './components/forgotpassword'
+import { ForgotPasswordComponent } from './components/forgotpassword/forgotpassword.component'
 import { NavbarComponent } from './components/navbar/navbar.component';
 
 
