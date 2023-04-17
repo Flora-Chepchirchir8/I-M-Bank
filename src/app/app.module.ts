@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './components/login/login.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
 import { ForgotPasswordComponent } from './components/forgot-password/forgot-password.component';
+import { ForgotpasswordComponent } from './components/forgotpassword/forgotpassword.component';
 
 
 
@@ -20,7 +21,8 @@ const routes: Routes = [
     AppComponent,
     LoginComponent,
     HomepageComponent,
-    ForgotPasswordComponent
+    ForgotPasswordComponent,
+    ForgotpasswordComponent
   ],
   imports: [
     BrowserModule,
