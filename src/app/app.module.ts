@@ -7,6 +7,8 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './components/login/login.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
 import { ForgotpasswordComponent } from './components/forgotpassword/forgotpassword.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { SidenavComponent } from './components/sidenav/sidenav.component';
 
 
 
@@ -22,6 +24,8 @@ const routes: Routes = [
     LoginComponent,
     HomepageComponent,
     ForgotpasswordComponent,
+    NavbarComponent,
+    SidenavComponent,
     
   ],
   imports: [
